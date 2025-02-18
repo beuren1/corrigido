@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    // Inicializando o carrossel
+  
     $('#carousel-imagens').slick({
         autoplay: true,
         arrows: false,
@@ -9,7 +9,7 @@ $(document).ready(function () {
         speed: 500,
     });
 
-    // Máscaras de campos
+  
     $('#telefone').mask('(00) 00000-0000', {
         placeholder: '(DDD) 12345-6789'
     });
@@ -20,7 +20,7 @@ $(document).ready(function () {
         placeholder: '01234-567'
     });
 
-    // Validação do formulário
+   
     $('form').validate({
         rules: {
             nome: {
